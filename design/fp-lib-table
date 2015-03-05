@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Allegro)(type Legacy)(uri ${KIPRJMOD}/../libs/Allegro_ACS759.kicad_mod)(options "")(descr ""))
+  (lib (name Sparkfun)(type Legacy)(uri ${KIPRJMOD}/../libs/SparkFun.mod)(options "")(descr ""))
+  (lib (name LESS)(type KiCad)(uri ${KIPRJMOD}/../pcb.pretty)(options "")(descr ""))
+)
