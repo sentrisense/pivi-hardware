@@ -33,12 +33,11 @@ LIBS:Allegro_ACS759
 LIBS:acs712
 LIBS:txs0104e
 LIBS:less
-LIBS:pivi-shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 11 12
 Title "PIVI"
 Date "mar 23 jun 2015"
 Rev "1.1"
@@ -72,7 +71,7 @@ F 3 "" H 4850 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-pivi-shield C23
+L C C23
 U 1 1 5497B2A3
 P 4850 4550
 AR Path="/548DF2C8/548E1940/5497B2A3" Ref="C23"  Part="1" 
@@ -92,7 +91,7 @@ $EndComp
 Text HLabel 5925 4200 2    60   Output ~ 0
 Current_AD
 $Comp
-L C-RESCUE-pivi-shield C22
+L C C22
 U 1 1 5497B2AF
 P 4575 4550
 AR Path="/548DF2C8/548E1940/5497B2AF" Ref="C22"  Part="1" 
@@ -150,7 +149,7 @@ F 3 "" H 5300 2100 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C-RESCUE-pivi-shield C25
+L C C25
 U 1 1 5497B2E4
 P 5250 1375
 AR Path="/548DF2C8/548E1940/5497B2E4" Ref="C25"  Part="1" 
@@ -168,7 +167,7 @@ F 3 "" H 5250 1375 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-pivi-shield C26
+L C C26
 U 1 1 5497B2EB
 P 6100 2500
 AR Path="/548DF2C8/548E1940/5497B2EB" Ref="C26"  Part="1" 
@@ -284,14 +283,14 @@ Wire Wire Line
 Wire Wire Line
 	4250 4450 4250 4800
 Wire Wire Line
-	4575 4800 4575 4750
+	4575 4700 4575 4800
 Wire Wire Line
-	4850 4050 4850 4350
+	4850 4050 4850 4400
 Connection ~ 4850 4100
 Wire Wire Line
-	4850 4750 4850 4800
+	4850 4700 4850 4800
 Wire Wire Line
-	4500 2100 4650 2100
+	4500 2100 4700 2100
 Wire Wire Line
 	4575 2250 4575 2100
 Connection ~ 4575 2100
@@ -413,7 +412,7 @@ Wire Wire Line
 Wire Wire Line
 	5675 2750 5675 2950
 Wire Wire Line
-	2225 2900 6100 2900
+	6100 2900 2225 2900
 Wire Wire Line
 	5150 1175 5675 1175
 Wire Wire Line
@@ -437,12 +436,12 @@ F 3 "" H 4850 1175 60  0000 C CNN
 $EndComp
 Connection ~ 5250 1175
 Wire Wire Line
-	5250 1575 5250 1625
+	5250 1525 5250 1625
 Wire Wire Line
-	6100 2300 6100 2100
+	6100 2100 6100 2350
 Connection ~ 6100 2100
 Wire Wire Line
-	6100 2900 6100 2700
+	6100 2650 6100 2900
 Connection ~ 6100 2900
 $Comp
 L +3V3 #PWR035
@@ -566,7 +565,7 @@ $EndComp
 Wire Wire Line
 	4550 1175 4550 1075
 $Comp
-L C-RESCUE-pivi-shield C1
+L C C1
 U 1 1 54C1942B
 P 4850 2100
 AR Path="/548DF2C8/548E1940/54C1942B" Ref="C1"  Part="1" 
@@ -583,4 +582,10 @@ F 3 "" H 4850 2100 60  0000 C CNN
 	1    4850 2100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	5250 1225 5250 1175
+Wire Wire Line
+	5000 2100 5050 2100
+Wire Wire Line
+	4575 4350 4575 4400
 $EndSCHEMATC

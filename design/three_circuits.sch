@@ -33,12 +33,11 @@ LIBS:Allegro_ACS759
 LIBS:acs712
 LIBS:txs0104e
 LIBS:less
-LIBS:pivi-shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 12
+Sheet 9 12
 Title "PIVI"
 Date "mar 23 jun 2015"
 Rev "1.1"

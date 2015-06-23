@@ -33,7 +33,6 @@ LIBS:Allegro_ACS759
 LIBS:acs712
 LIBS:txs0104e
 LIBS:less
-LIBS:pivi-shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -60,7 +59,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlv70215.pdf" H 6400 2675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-pivi-shield C53
+L C C53
 U 1 1 548CB8AD
 P 7150 3525
 AR Path="/548CB8AD" Ref="C53"  Part="1" 
@@ -73,13 +72,13 @@ F 3 "" H 7150 3525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 3750 5650 3700
+	5650 3650 5650 3750
 Wire Wire Line
 	6850 3300 7150 3300
 Wire Wire Line
-	5650 3300 5650 3175
+	5650 3175 5650 3350
 Wire Wire Line
-	7150 3175 7150 3325
+	7150 3175 7150 3375
 $Comp
 L +5V #PWR058
 U 1 1 548CBAAB
@@ -92,7 +91,7 @@ F 3 "" H 5650 3175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C-RESCUE-pivi-shield C52
+L C C52
 U 1 1 548CB868
 P 5650 3500
 AR Path="/548CB868" Ref="C52"  Part="1" 
@@ -114,7 +113,7 @@ Connection ~ 5850 3300
 Wire Wire Line
 	6400 3750 6400 3650
 Wire Wire Line
-	7150 3775 7150 3725
+	7150 3675 7150 3775
 $Comp
 L +3V3 #PWR059
 U 1 1 54965F4C
@@ -160,4 +159,5 @@ F 3 "" H 7150 3775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7150 3300
+Connection ~ 5650 3300
 $EndSCHEMATC
