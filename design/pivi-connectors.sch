@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pivi-shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -33,14 +33,15 @@ LIBS:Allegro_ACS759
 LIBS:acs712
 LIBS:txs0104e
 LIBS:less
+LIBS:pivi-shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 12
 Title "PIVI"
-Date "sáb 01 nov 2014"
-Rev "1.0"
+Date "mar 23 jun 2015"
+Rev "1.1"
 Comp "Copyright (C) LESS industries S.A. 2014,2015"
 Comment1 "Share alike attribution non-commercial 4.0"
 Comment2 "License: Creative Commons "
@@ -48,10 +49,10 @@ Comment3 "Connectors"
 Comment4 ""
 $EndDescr
 $Comp
-L +5V #PWR025
+L +5V #PWR026
 U 1 1 54959F0D
 P 7425 1625
-F 0 "#PWR025" H 7425 1715 20  0001 C CNN
+F 0 "#PWR026" H 7425 1715 20  0001 C CNN
 F 1 "+5V" H 7425 1750 30  0000 C CNN
 F 2 "" H 7425 1625 60  0000 C CNN
 F 3 "" H 7425 1625 60  0000 C CNN
@@ -59,9 +60,11 @@ F 3 "" H 7425 1625 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L C-RESCUE-pivi-shield C21
 U 1 1 54959F13
 P 7425 1850
+AR Path="/54959F13" Ref="C21"  Part="1" 
+AR Path="/549598FF/54959F13" Ref="C21"  Part="1" 
 F 0 "C21" H 7425 1950 40  0000 L CNN
 F 1 "100nF" H 7431 1765 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7463 1700 30  0000 C CNN
@@ -80,8 +83,6 @@ NoConn ~ 6550 2850
 NoConn ~ 6550 2750
 NoConn ~ 6550 2650
 NoConn ~ 6550 2450
-NoConn ~ 6550 2350
-NoConn ~ 6550 2150
 NoConn ~ 6550 3550
 NoConn ~ 6550 3450
 NoConn ~ 6550 3350
@@ -99,10 +100,10 @@ Power line Input.\nFrom circuit breakers.
 Text Notes 3175 1725 0    60   ~ 0
 Power line output.\nTo load.
 $Comp
-L +5V #PWR026
+L +5V #PWR027
 U 1 1 54959F4A
 P 3000 4675
-F 0 "#PWR026" H 3000 4765 20  0001 C CNN
+F 0 "#PWR027" H 3000 4765 20  0001 C CNN
 F 1 "+5V" H 3000 4800 30  0000 C CNN
 F 2 "" H 3000 4675 60  0000 C CNN
 F 3 "" H 3000 4675 60  0000 C CNN
@@ -112,7 +113,7 @@ $EndComp
 Text Notes 1125 1375 0    120  ~ 0
 Power Line Connections
 $Comp
-L R R9
+L R-RESCUE-pivi-shield R9
 U 1 1 54959F58
 P 4425 4975
 F 0 "R9" V 4505 4975 40  0000 C CNN
@@ -325,10 +326,10 @@ Wire Wire Line
 Wire Wire Line
 	1300 4575 1400 4575
 $Comp
-L GND #PWR027
+L GND-RESCUE-pivi-shield #PWR028
 U 1 1 54BFA08A
 P 7425 2075
-F 0 "#PWR027" H 7425 1825 60  0001 C CNN
+F 0 "#PWR028" H 7425 1825 60  0001 C CNN
 F 1 "GND" H 7425 1925 60  0000 C CNN
 F 2 "" H 7425 2075 60  0000 C CNN
 F 3 "" H 7425 2075 60  0000 C CNN
@@ -336,10 +337,10 @@ F 3 "" H 7425 2075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L GND-RESCUE-pivi-shield #PWR029
 U 1 1 54BFA09E
 P 6725 3300
-F 0 "#PWR028" H 6725 3050 60  0001 C CNN
+F 0 "#PWR029" H 6725 3050 60  0001 C CNN
 F 1 "GND" H 6725 3150 60  0000 C CNN
 F 2 "" H 6725 3300 60  0000 C CNN
 F 3 "" H 6725 3300 60  0000 C CNN
@@ -347,10 +348,10 @@ F 3 "" H 6725 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L GND-RESCUE-pivi-shield #PWR030
 U 1 1 54BFA0B2
 P 5900 3700
-F 0 "#PWR029" H 5900 3450 60  0001 C CNN
+F 0 "#PWR030" H 5900 3450 60  0001 C CNN
 F 1 "GND" H 5900 3550 60  0000 C CNN
 F 2 "" H 5900 3700 60  0000 C CNN
 F 3 "" H 5900 3700 60  0000 C CNN
@@ -358,10 +359,10 @@ F 3 "" H 5900 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L GND-RESCUE-pivi-shield #PWR031
 U 1 1 54BFA0C6
 P 4425 5275
-F 0 "#PWR030" H 4425 5025 60  0001 C CNN
+F 0 "#PWR031" H 4425 5025 60  0001 C CNN
 F 1 "GND" H 4425 5125 60  0000 C CNN
 F 2 "" H 4425 5275 60  0000 C CNN
 F 3 "" H 4425 5275 60  0000 C CNN
@@ -369,10 +370,10 @@ F 3 "" H 4425 5275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L GND-RESCUE-pivi-shield #PWR032
 U 1 1 54BFA203
 P 2625 4675
-F 0 "#PWR031" H 2625 4425 60  0001 C CNN
+F 0 "#PWR032" H 2625 4425 60  0001 C CNN
 F 1 "GND" H 2625 4525 60  0000 C CNN
 F 2 "" H 2625 4675 60  0000 C CNN
 F 3 "" H 2625 4675 60  0000 C CNN
@@ -382,10 +383,10 @@ $EndComp
 Text Notes 950  6175 0    60   ~ 0
 Alternative 5V power supply \nfor using when powering \nthe board externally.
 $Comp
-L GND #PWR032
+L GND-RESCUE-pivi-shield #PWR033
 U 1 1 54C181FB
 P 1350 5625
-F 0 "#PWR032" H 1350 5375 60  0001 C CNN
+F 0 "#PWR033" H 1350 5375 60  0001 C CNN
 F 1 "GND" H 1350 5475 60  0000 C CNN
 F 2 "" H 1350 5625 60  0000 C CNN
 F 3 "" H 1350 5625 60  0000 C CNN
@@ -482,4 +483,12 @@ F 3 "" H 2350 3325 60  0000 C CNN
 	1    2350 4525
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6550 2150 6875 2150
+Text HLabel 6875 2150 2    60   Input ~ 0
+GPIO-18
+Wire Wire Line
+	6550 2350 6875 2350
+Text HLabel 6875 2350 2    60   Input ~ 0
+GPIO-23
 $EndSCHEMATC

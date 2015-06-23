@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pivi-shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -33,14 +33,15 @@ LIBS:Allegro_ACS759
 LIBS:acs712
 LIBS:txs0104e
 LIBS:less
+LIBS:pivi-shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 12
 Title "PIVI"
-Date "sáb 01 nov 2014"
-Rev "1.0"
+Date "mar 23 jun 2015"
+Rev "1.1"
 Comp "Copyright (C) LESS industries S.A. 2014,2015"
 Comment1 "Share alike attribution non-commercial 4.0"
 Comment2 "License: Creative Commons "
@@ -59,9 +60,11 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlv70215.pdf" H 6400 2675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C53
+L C-RESCUE-pivi-shield C53
 U 1 1 548CB8AD
 P 7150 3525
+AR Path="/548CB8AD" Ref="C53"  Part="1" 
+AR Path="/548F00C8/548CB8AD" Ref="C53"  Part="1" 
 F 0 "C53" H 7175 3600 40  0000 L CNN
 F 1 "1uF" H 7175 3425 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7450 3375 30  0000 C CNN
@@ -78,10 +81,10 @@ Wire Wire Line
 Wire Wire Line
 	7150 3175 7150 3325
 $Comp
-L +5V #PWR057
+L +5V #PWR058
 U 1 1 548CBAAB
 P 5650 3175
-F 0 "#PWR057" H 5650 3265 20  0001 C CNN
+F 0 "#PWR058" H 5650 3265 20  0001 C CNN
 F 1 "+5V" H 5650 3300 30  0000 C CNN
 F 2 "" H 5650 3175 60  0000 C CNN
 F 3 "" H 5650 3175 60  0000 C CNN
@@ -89,9 +92,11 @@ F 3 "" H 5650 3175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C52
+L C-RESCUE-pivi-shield C52
 U 1 1 548CB868
 P 5650 3500
+AR Path="/548CB868" Ref="C52"  Part="1" 
+AR Path="/548F00C8/548CB868" Ref="C52"  Part="1" 
 F 0 "C52" H 5675 3575 40  0000 L CNN
 F 1 "100nF" H 5675 3400 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 5950 3325 30  0000 C CNN
@@ -111,10 +116,10 @@ Wire Wire Line
 Wire Wire Line
 	7150 3775 7150 3725
 $Comp
-L +3V3 #PWR058
+L +3V3 #PWR059
 U 1 1 54965F4C
 P 7150 3175
-F 0 "#PWR058" H 7150 3025 60  0001 C CNN
+F 0 "#PWR059" H 7150 3025 60  0001 C CNN
 F 1 "+3V3" H 7150 3300 30  0000 C CNN
 F 2 "" H 7150 3175 60  0000 C CNN
 F 3 "" H 7150 3175 60  0000 C CNN
@@ -122,10 +127,10 @@ F 3 "" H 7150 3175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR059
+L GND-RESCUE-pivi-shield #PWR060
 U 1 1 54BFA945
 P 5650 3750
-F 0 "#PWR059" H 5650 3500 60  0001 C CNN
+F 0 "#PWR060" H 5650 3500 60  0001 C CNN
 F 1 "GND" H 5650 3600 60  0000 C CNN
 F 2 "" H 5650 3750 60  0000 C CNN
 F 3 "" H 5650 3750 60  0000 C CNN
@@ -133,10 +138,10 @@ F 3 "" H 5650 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR060
+L GND-RESCUE-pivi-shield #PWR061
 U 1 1 54BFA959
 P 6400 3750
-F 0 "#PWR060" H 6400 3500 60  0001 C CNN
+F 0 "#PWR061" H 6400 3500 60  0001 C CNN
 F 1 "GND" H 6400 3600 60  0000 C CNN
 F 2 "" H 6400 3750 60  0000 C CNN
 F 3 "" H 6400 3750 60  0000 C CNN
@@ -144,10 +149,10 @@ F 3 "" H 6400 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR061
+L GND-RESCUE-pivi-shield #PWR062
 U 1 1 54BFA96D
 P 7150 3775
-F 0 "#PWR061" H 7150 3525 60  0001 C CNN
+F 0 "#PWR062" H 7150 3525 60  0001 C CNN
 F 1 "GND" H 7150 3625 60  0000 C CNN
 F 2 "" H 7150 3775 60  0000 C CNN
 F 3 "" H 7150 3775 60  0000 C CNN
