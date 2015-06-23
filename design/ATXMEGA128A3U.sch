@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pivi-shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 12
 Title "PIVI"
-Date "sáb 01 nov 2014"
-Rev "1.0"
+Date "mar 23 jun 2015"
+Rev "1.1"
 Comp "Copyright (C) LESS industries S.A. 2014,2015"
 Comment1 "Share alike attribution non-commercial 4.0"
 Comment2 "License: Creative Commons "
@@ -48,7 +48,7 @@ Comment3 "Microcontroller "
 Comment4 ""
 $EndDescr
 $Comp
-L R R4
+L R-RESCUE-pivi-shield R4
 U 1 1 546F43A6
 P 8350 3700
 AR Path="/548ADE5E/546F43A6" Ref="R4"  Part="1" 
@@ -61,7 +61,7 @@ F 3 "" H 8350 3700 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-pivi-shield R5
 U 1 1 546F43A7
 P 8350 4300
 AR Path="/548ADE5E/546F43A7" Ref="R5"  Part="1" 
@@ -74,7 +74,7 @@ F 3 "" H 8350 4300 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAPAPOL C3
+L C C3
 U 1 1 546F43CE
 P 4125 1525
 AR Path="/548ADE5E/546F43CE" Ref="C3"  Part="1" 
@@ -92,6 +92,7 @@ U 1 1 548AF338
 P 4600 1525
 AR Path="/548ADE5E/548AF338" Ref="C4"  Part="1" 
 AR Path="/547008F6/548AF338" Ref="C14"  Part="1" 
+AR Path="/548AF338" Ref="C14"  Part="1" 
 F 0 "C14" H 4600 1625 40  0000 L CNN
 F 1 "100nF" H 4606 1440 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" V 4475 1525 30  0000 C CNN
@@ -100,7 +101,7 @@ F 3 "" H 4600 1525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAPAPOL C9
+L C C9
 U 1 1 546F43D7
 P 7400 1525
 AR Path="/548ADE5E/546F43D7" Ref="C9"  Part="1" 
@@ -266,6 +267,7 @@ U 1 1 54863967
 P 3625 4650
 AR Path="/548ADE5E/54863967" Ref="C2"  Part="1" 
 AR Path="/547008F6/54863967" Ref="C12"  Part="1" 
+AR Path="/54863967" Ref="C12"  Part="1" 
 F 0 "C12" H 3625 4750 40  0000 L CNN
 F 1 "10pF" H 3631 4565 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3663 4500 30  0000 C CNN
@@ -274,7 +276,7 @@ F 3 "" H 3625 4650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CRYSTAL X1
+L Crystal X1
 U 1 1 5486396D
 P 4000 4300
 AR Path="/548ADE5E/5486396D" Ref="X1"  Part="1" 
@@ -363,6 +365,7 @@ U 1 1 548F5037
 P 3625 3950
 AR Path="/548ADE5E/548F5037" Ref="C1"  Part="1" 
 AR Path="/547008F6/548F5037" Ref="C11"  Part="1" 
+AR Path="/548F5037" Ref="C11"  Part="1" 
 F 0 "C11" H 3625 4050 40  0000 L CNN
 F 1 "10pF" H 3631 3865 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3663 3800 30  0000 C CNN
@@ -376,6 +379,7 @@ U 1 1 548F53F6
 P 7700 1525
 AR Path="/548ADE5E/548F53F6" Ref="C10"  Part="1" 
 AR Path="/547008F6/548F53F6" Ref="C20"  Part="1" 
+AR Path="/548F53F6" Ref="C20"  Part="1" 
 F 0 "C20" H 7700 1625 40  0000 L CNN
 F 1 "100nF" H 7706 1440 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8000 1375 30  0000 C CNN
@@ -431,7 +435,7 @@ F 3 "" H 8500 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-pivi-shield R3
 U 1 1 5493E749
 P 4700 2250
 AR Path="/548ADE5E/5493E749" Ref="R3"  Part="1" 
@@ -475,6 +479,7 @@ U 1 1 5496B0BB
 P 4925 1525
 AR Path="/548ADE5E/5496B0BB" Ref="C5"  Part="1" 
 AR Path="/547008F6/5496B0BB" Ref="C15"  Part="1" 
+AR Path="/5496B0BB" Ref="C15"  Part="1" 
 F 0 "C15" H 4925 1625 40  0000 L CNN
 F 1 "100nF" H 4931 1440 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" V 4800 1525 30  0000 C CNN
@@ -488,6 +493,7 @@ U 1 1 5496B0F5
 P 5225 1525
 AR Path="/548ADE5E/5496B0F5" Ref="C6"  Part="1" 
 AR Path="/547008F6/5496B0F5" Ref="C16"  Part="1" 
+AR Path="/5496B0F5" Ref="C16"  Part="1" 
 F 0 "C16" H 5225 1625 40  0000 L CNN
 F 1 "100nF" H 5231 1440 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" V 5125 1525 30  0000 C CNN
@@ -501,6 +507,7 @@ U 1 1 5496B136
 P 5525 1525
 AR Path="/548ADE5E/5496B136" Ref="C7"  Part="1" 
 AR Path="/547008F6/5496B136" Ref="C17"  Part="1" 
+AR Path="/5496B136" Ref="C17"  Part="1" 
 F 0 "C17" H 5525 1625 40  0000 L CNN
 F 1 "100nF" H 5531 1440 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" V 5425 1525 30  0000 C CNN
@@ -514,6 +521,7 @@ U 1 1 5496B172
 P 5825 1525
 AR Path="/548ADE5E/5496B172" Ref="C8"  Part="1" 
 AR Path="/547008F6/5496B172" Ref="C18"  Part="1" 
+AR Path="/5496B172" Ref="C18"  Part="1" 
 F 0 "C18" H 5825 1625 40  0000 L CNN
 F 1 "100nF" H 5831 1440 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" V 5725 1525 30  0000 C CNN
@@ -533,7 +541,7 @@ F 3 "" H 4315 6680 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND-RESCUE-pivi-shield #PWR017
 U 1 1 54BF84DA
 P 7400 1800
 F 0 "#PWR017" H 7400 1550 60  0001 C CNN
@@ -544,7 +552,7 @@ F 3 "" H 7400 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND-RESCUE-pivi-shield #PWR018
 U 1 1 54BF85B6
 P 7700 1800
 F 0 "#PWR018" H 7700 1550 60  0001 C CNN
@@ -555,7 +563,7 @@ F 3 "" H 7700 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L GND-RESCUE-pivi-shield #PWR019
 U 1 1 54BF87AD
 P 4125 1900
 F 0 "#PWR019" H 4125 1650 60  0001 C CNN
@@ -566,7 +574,7 @@ F 3 "" H 4125 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L GND-RESCUE-pivi-shield #PWR020
 U 1 1 54BF89A3
 P 3325 4900
 F 0 "#PWR020" H 3325 4650 60  0001 C CNN
@@ -577,7 +585,7 @@ F 3 "" H 3325 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L GND-RESCUE-pivi-shield #PWR021
 U 1 1 54BF8BAD
 P 6350 5800
 F 0 "#PWR021" H 6350 5550 60  0001 C CNN
@@ -593,24 +601,24 @@ Wire Wire Line
 	6350 5625 6350 5800
 Connection ~ 6350 5625
 Wire Wire Line
-	4125 1300 4125 1325
+	4125 1300 4125 1375
 Wire Wire Line
-	4125 1725 4125 1900
+	4125 1675 4125 1900
 Wire Wire Line
 	6300 1300 6300 1950
 Connection ~ 4125 1300
 Wire Wire Line
-	4600 1725 4600 1800
+	4600 1675 4600 1800
 Wire Wire Line
-	4925 1800 4925 1725
+	4925 1675 4925 1800
 Wire Wire Line
-	5225 1800 5225 1725
+	5225 1675 5225 1800
 Wire Wire Line
-	5225 1300 5225 1325
+	5225 1300 5225 1375
 Wire Wire Line
-	4925 1300 4925 1325
+	4925 1300 4925 1375
 Wire Wire Line
-	4600 1250 4600 1325
+	4600 1250 4600 1375
 Wire Wire Line
 	6500 1300 6500 1950
 Connection ~ 6300 1300
@@ -623,12 +631,12 @@ Wire Wire Line
 Wire Wire Line
 	7225 1300 7700 1300
 Wire Wire Line
-	7400 1325 7400 1300
+	7400 1300 7400 1375
 Connection ~ 7400 1300
 Wire Wire Line
-	7400 1725 7400 1800
+	7400 1675 7400 1800
 Wire Wire Line
-	7700 1725 7700 1800
+	7700 1675 7700 1800
 Wire Wire Line
 	7275 1950 7275 1300
 Connection ~ 7275 1300
@@ -724,14 +732,14 @@ Wire Wire Line
 Wire Wire Line
 	9650 2700 10450 2700
 Wire Wire Line
-	5525 1800 5525 1725
+	5525 1675 5525 1800
 Wire Wire Line
-	5825 1800 5825 1725
+	5825 1675 5825 1800
 Wire Wire Line
-	5525 1325 5525 1300
+	5525 1300 5525 1375
 Connection ~ 5525 1300
 Wire Wire Line
-	5825 1325 5825 1300
+	5825 1300 5825 1375
 Connection ~ 5825 1300
 Wire Wire Line
 	6200 1950 6200 1300
@@ -770,28 +778,28 @@ Wire Wire Line
 Wire Wire Line
 	5000 3800 5350 3800
 Wire Wire Line
-	3825 4650 5350 4650
+	3775 4650 5350 4650
 Wire Wire Line
-	4000 4600 4000 4650
+	4000 4450 4000 4650
 Connection ~ 4000 4650
 Wire Wire Line
-	3825 3950 4300 3950
+	3775 3950 4300 3950
 Wire Wire Line
-	4000 3950 4000 4000
+	4000 3950 4000 4150
 Wire Wire Line
 	4300 3950 4300 4550
 Wire Wire Line
 	4300 4550 5350 4550
 Connection ~ 4000 3950
 Wire Wire Line
-	3425 4650 3325 4650
+	3325 4650 3475 4650
 Wire Wire Line
 	3325 3950 3325 4900
 Wire Wire Line
-	3325 3950 3425 3950
+	3325 3950 3475 3950
 Connection ~ 3325 4650
 Wire Wire Line
-	7700 1300 7700 1325
+	7700 1300 7700 1375
 Wire Wire Line
 	5350 2250 4950 2250
 Wire Wire Line
@@ -807,7 +815,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2950 5000 2950
 Wire Wire Line
-	4125 1800 5825 1800
+	5825 1800 4125 1800
 Connection ~ 4925 1800
 Wire Wire Line
 	5225 1800 4925 1800
@@ -835,7 +843,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 2300 10250 2700
 $Comp
-L GND #PWR022
+L GND-RESCUE-pivi-shield #PWR022
 U 1 1 54BF9940
 P 10450 2700
 F 0 "#PWR022" H 10450 2450 60  0001 C CNN
@@ -857,7 +865,7 @@ F 3 "" H 4315 6270 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L GND-RESCUE-pivi-shield #PWR024
 U 1 1 54C243B5
 P 4315 7010
 F 0 "#PWR024" H 4315 6760 60  0001 C CNN
@@ -882,4 +890,11 @@ Text Label 4580 6335 2    60   ~ 0
 GNDA
 Text Notes 4460 6910 0    60   ~ 0
 This Inductor should be placed\nnear PIN 60 of the Xmega
+Wire Wire Line
+	4925 2500 5275 2500
+Wire Wire Line
+	5275 2500 5275 2250
+Connection ~ 5275 2250
+Text HLabel 4925 2500 0    60   Input ~ 0
+RESET
 $EndSCHEMATC

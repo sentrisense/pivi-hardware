@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:pivi-shield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -39,8 +39,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 12
 Title "PIVI"
-Date "sáb 01 nov 2014"
-Rev "1.0"
+Date "mar 23 jun 2015"
+Rev "1.1"
 Comp "Copyright (C) LESS industries S.A. 2014,2015"
 Comment1 "Share alike attribution non-commercial 4.0"
 Comment2 "License: Creative Commons "
@@ -62,6 +62,8 @@ $Comp
 L C C21
 U 1 1 54959F13
 P 7425 1850
+AR Path="/54959F13" Ref="C21"  Part="1" 
+AR Path="/549598FF/54959F13" Ref="C21"  Part="1" 
 F 0 "C21" H 7425 1950 40  0000 L CNN
 F 1 "100nF" H 7431 1765 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7463 1700 30  0000 C CNN
@@ -78,14 +80,9 @@ NoConn ~ 6050 2650
 NoConn ~ 6050 2550
 NoConn ~ 6550 2850
 NoConn ~ 6550 2750
-NoConn ~ 6550 2650
-NoConn ~ 6550 2450
-NoConn ~ 6550 2350
-NoConn ~ 6550 2150
 NoConn ~ 6550 3550
 NoConn ~ 6550 3450
 NoConn ~ 6550 3350
-NoConn ~ 6550 3150
 NoConn ~ 6050 3450
 NoConn ~ 6050 3350
 NoConn ~ 6050 3250
@@ -112,7 +109,7 @@ $EndComp
 Text Notes 1125 1375 0    120  ~ 0
 Power Line Connections
 $Comp
-L R R9
+L R-RESCUE-pivi-shield R9
 U 1 1 54959F58
 P 4425 4975
 F 0 "R9" V 4505 4975 40  0000 C CNN
@@ -264,9 +261,9 @@ Wire Wire Line
 Wire Wire Line
 	6625 1750 6625 1650
 Wire Wire Line
-	7425 2050 7425 2075
+	7425 2000 7425 2075
 Wire Wire Line
-	7425 1650 7425 1625
+	7425 1625 7425 1700
 Wire Wire Line
 	6550 1850 6725 1850
 Wire Wire Line
@@ -325,7 +322,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 4575 1400 4575
 $Comp
-L GND #PWR027
+L GND-RESCUE-pivi-shield #PWR027
 U 1 1 54BFA08A
 P 7425 2075
 F 0 "#PWR027" H 7425 1825 60  0001 C CNN
@@ -336,7 +333,7 @@ F 3 "" H 7425 2075 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L GND-RESCUE-pivi-shield #PWR028
 U 1 1 54BFA09E
 P 6725 3300
 F 0 "#PWR028" H 6725 3050 60  0001 C CNN
@@ -347,7 +344,7 @@ F 3 "" H 6725 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L GND-RESCUE-pivi-shield #PWR029
 U 1 1 54BFA0B2
 P 5900 3700
 F 0 "#PWR029" H 5900 3450 60  0001 C CNN
@@ -358,7 +355,7 @@ F 3 "" H 5900 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L GND-RESCUE-pivi-shield #PWR030
 U 1 1 54BFA0C6
 P 4425 5275
 F 0 "#PWR030" H 4425 5025 60  0001 C CNN
@@ -369,7 +366,7 @@ F 3 "" H 4425 5275 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L GND-RESCUE-pivi-shield #PWR031
 U 1 1 54BFA203
 P 2625 4675
 F 0 "#PWR031" H 2625 4425 60  0001 C CNN
@@ -382,7 +379,7 @@ $EndComp
 Text Notes 950  6175 0    60   ~ 0
 Alternative 5V power supply \nfor using when powering \nthe board externally.
 $Comp
-L GND #PWR032
+L GND-RESCUE-pivi-shield #PWR032
 U 1 1 54C181FB
 P 1350 5625
 F 0 "#PWR032" H 1350 5375 60  0001 C CNN
@@ -482,4 +479,106 @@ F 3 "" H 2350 3325 60  0000 C CNN
 	1    2350 4525
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6550 2150 6875 2150
+Text HLabel 6875 2150 2    60   Input ~ 0
+GPIO-18
+Wire Wire Line
+	6550 2350 6875 2350
+Text HLabel 6875 2350 2    60   Input ~ 0
+GPIO-23
+Connection ~ 7425 1650
+$Comp
+L LED_RGB D2
+U 1 1 558C1006
+P 7600 2950
+F 0 "D2" H 7600 3400 50  0000 C CNN
+F 1 "LED_RGB" H 7600 3300 50  0000 C CNN
+F 2 "" H 7600 2900 60  0000 C CNN
+F 3 "" H 7600 2900 60  0000 C CNN
+	1    7600 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 558C1041
+P 8175 2750
+F 0 "R1" V 8255 2750 50  0000 C CNN
+F 1 "270" V 8175 2750 50  0000 C CNN
+F 2 "" V 8105 2750 30  0000 C CNN
+F 3 "" H 8175 2750 30  0000 C CNN
+	1    8175 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R2
+U 1 1 558C1113
+P 8175 2950
+F 0 "R2" V 8255 2950 50  0000 C CNN
+F 1 "270" V 8175 2950 50  0000 C CNN
+F 2 "" V 8105 2950 30  0000 C CNN
+F 3 "" H 8175 2950 30  0000 C CNN
+	1    8175 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 558C1151
+P 8175 3150
+F 0 "R3" V 8255 3150 50  0000 C CNN
+F 1 "270" V 8175 3150 50  0000 C CNN
+F 2 "" V 8105 3150 30  0000 C CNN
+F 3 "" H 8175 3150 30  0000 C CNN
+	1    8175 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 2750 8025 2750
+Wire Wire Line
+	7900 2950 8025 2950
+Wire Wire Line
+	7900 3150 8025 3150
+Wire Wire Line
+	8325 2750 8550 2750
+Wire Wire Line
+	8550 2750 8550 3350
+Wire Wire Line
+	8325 3150 8550 3150
+Connection ~ 8550 3150
+Wire Wire Line
+	8325 2950 8550 2950
+Connection ~ 8550 2950
+Text Label 6875 2750 0    60   ~ 0
+GPIO-24
+Wire Wire Line
+	6550 2650 6800 2650
+Wire Wire Line
+	6800 2650 6800 2950
+Text Label 6875 2950 0    60   ~ 0
+GPIO-25
+Wire Wire Line
+	6875 2450 6875 2750
+Wire Wire Line
+	6875 2450 6550 2450
+Wire Wire Line
+	6550 3150 7300 3150
+Text Label 6875 3150 0    60   ~ 0
+GPIO-12
+$Comp
+L GND #PWR033
+U 1 1 558C16FC
+P 8550 3350
+F 0 "#PWR033" H 8550 3100 50  0001 C CNN
+F 1 "GND" H 8550 3200 50  0000 C CNN
+F 2 "" H 8550 3350 60  0000 C CNN
+F 3 "" H 8550 3350 60  0000 C CNN
+	1    8550 3350
+	1    0    0    -1  
+$EndComp
+Text Notes 8650 3200 0    60   ~ 0
+The GPIO pins can draw 50mA safely, distributed\nacross all the pins; an individual GPIO pin can \nonly safely draw 16mA. \n\nhttps://www.raspberrypi.org/documentation/hardware/\nraspberrypi/power/README.md
+Wire Wire Line
+	6800 2950 7300 2950
+Wire Wire Line
+	6875 2750 7300 2750
 $EndSCHEMATC
