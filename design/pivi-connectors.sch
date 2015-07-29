@@ -136,7 +136,7 @@ Raspberry Header source:\nhttp://www.raspberrypi.org/wp-content/uploads/2014/04/
 Text Notes 1250 4445 0    120  ~ 0
 Board power Supply Connections
 Text HLabel 6610 5160 2    60   Output ~ 0
-Phase_Line
+Phase_Line_1
 Text HLabel 6610 5260 2    60   Output ~ 0
 Neutral_Line
 Text Label 6260 5160 0    60   ~ 0
@@ -406,8 +406,6 @@ F2 "CT_1" I L 1450 2125 60
 F3 "CT_2" I L 1450 2250 60 
 F4 "CT_DETECTOR" I L 1450 2000 60 
 $EndSheet
-Text Notes 5875 5540 1    60   ~ 0
-277-9758-ND
 Text HLabel 1300 2000 0    60   Input ~ 0
 CT1_DETECTOR
 Wire Wire Line
@@ -681,4 +679,23 @@ Wire Wire Line
 	9070 5105 9235 5105
 Wire Wire Line
 	9070 5205 9240 5205
+Text HLabel 6610 5730 2    60   Output ~ 0
+Phase_Line_2
+Text HLabel 6610 5830 2    60   Output ~ 0
+Phase_Line_3
+$Comp
+L CONN_01X02 P?
+U 1 1 55BC87D7
+P 6060 5780
+F 0 "P?" H 6060 5930 50  0000 C CNN
+F 1 "CONN_01X02" V 6160 5780 50  0000 C CNN
+F 2 "LESS:CONN-TERM-BLK-2POS-PHOENIX" H 6060 5780 60  0001 C CNN
+F 3 "" H 6060 5780 60  0000 C CNN
+	1    6060 5780
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6260 5830 6610 5830
+Wire Wire Line
+	6260 5730 6610 5730
 $EndSCHEMATC

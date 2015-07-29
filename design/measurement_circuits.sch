@@ -66,7 +66,7 @@ F3 "CT_2" I L 4977 1296 60
 F4 "CURRENT_AD" I R 5967 1721 60 
 $EndSheet
 Text HLabel 1690 1078 0    60   Input ~ 0
-Phase_Line
+Phase_Line_1
 Text HLabel 4842 1071 0    60   Input ~ 0
 CT1_1
 Text HLabel 4842 1296 0    60   Input ~ 0
@@ -204,7 +204,7 @@ F3 "Neutral_Filtered" I L 1760 2844 60
 F4 "Phase_Line" I L 1760 2594 60 
 $EndSheet
 Text HLabel 1685 2594 0    60   Input ~ 0
-Phase_Line
+Phase_Line_2
 Text HLabel 2860 3189 2    60   Input ~ 0
 Voltage_AD_2
 Wire Wire Line
@@ -225,7 +225,7 @@ F3 "Neutral_Filtered" I L 1786 4354 60
 F4 "Phase_Line" I L 1786 4104 60 
 $EndSheet
 Text HLabel 1711 4104 0    60   Input ~ 0
-Phase_Line
+Phase_Line_3
 Text HLabel 2886 4699 2    60   Input ~ 0
 Voltage_AD_3
 Wire Wire Line

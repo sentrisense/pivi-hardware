@@ -178,9 +178,11 @@ F21 "CT6_DETECTOR" I L 1675 2975 60
 F22 "CT6_1" I R 3450 2450 60 
 F23 "CT6_2" I R 3450 2575 60 
 F24 "Neutral_Line" O L 1675 1325 60 
-F25 "GPIO-18" I R 3450 2850 60 
-F26 "GPIO-23" I R 3450 2975 60 
-F27 "Phase_Line" O L 1675 1200 60 
+F25 "GPIO-18" I R 3450 2720 60 
+F26 "GPIO-23" I R 3450 2845 60 
+F27 "Phase_Line_1" O R 3450 3020 60 
+F28 "Phase_Line_2" O R 3450 3150 60 
+F29 "Phase_Line_3" O R 3450 3280 60 
 $EndSheet
 $Sheet
 S 8193 4623 1175 325 
@@ -293,6 +295,180 @@ F 3 "" H 6155 2400 60  0000 C CNN
 $EndComp
 Text Label 6455 1300 2    39   ~ 0
 Neutral_Line
+Text Label 1100 5630 0    60   ~ 0
+Current_AD_5
+NoConn ~ 1320 6230
+Text Label 10645 2555 2    60   ~ 0
+Voltage_AD_1
+Text Label 4075 1200 2    60   ~ 0
+CT1_1
+Text Label 4075 1325 2    60   ~ 0
+CT1_2
+Text Label 4075 1450 2    60   ~ 0
+CT2_1
+Text Label 4075 1575 2    60   ~ 0
+CT2_2
+Text Label 4075 1700 2    60   ~ 0
+CT3_1
+Text Label 4075 1825 2    60   ~ 0
+CT3_2
+Text Label 4075 1950 2    60   ~ 0
+CT4_1
+Text Label 4075 2075 2    60   ~ 0
+CT4_2
+Text Label 4075 2200 2    60   ~ 0
+CT5_1
+Text Label 4075 2325 2    60   ~ 0
+CT5_2
+Text Label 4075 2450 2    60   ~ 0
+CT6_1
+Text Label 4075 2575 2    60   ~ 0
+CT6_2
+Text Label 7530 1605 0    60   ~ 0
+CT1_1
+Text Label 7530 1780 0    60   ~ 0
+CT1_2
+Text Label 7530 1960 0    60   ~ 0
+CT2_1
+Text Label 7530 2135 0    60   ~ 0
+CT2_2
+Text Label 7530 2315 0    60   ~ 0
+CT3_1
+Text Label 7530 2500 0    60   ~ 0
+CT3_2
+Text Label 7530 2700 0    60   ~ 0
+CT4_1
+Text Label 7530 2875 0    60   ~ 0
+CT4_2
+Text Label 7530 3045 0    60   ~ 0
+CT5_1
+Text Label 7530 3245 0    60   ~ 0
+CT5_2
+Text Label 7530 3435 0    60   ~ 0
+CT6_1
+Text Label 7530 3610 0    60   ~ 0
+CT6_2
+Text Label 7530 1420 0    59   ~ 0
+Neutral_Filtered
+Text Label 1075 1325 0    60   ~ 0
+Neutral_Line
+Text Label 10645 1615 2    60   ~ 0
+Current_AD_2
+Text Label 10645 1795 2    60   ~ 0
+Current_AD_3
+Text Label 10645 1990 2    60   ~ 0
+Current_AD_4
+Text Label 10645 2380 2    60   ~ 0
+Current_AD_6
+Text Label 10645 1430 2    60   ~ 0
+Current_AD_1
+Text Label 10645 2185 2    60   ~ 0
+Current_AD_5
+Text Label 1075 2225 0    60   ~ 0
+CT1_Detector
+Text Label 1075 2375 0    60   ~ 0
+CT2_Detector
+Text Label 1075 2525 0    60   ~ 0
+CT3_Detector
+Text Label 1075 2675 0    60   ~ 0
+CT4_Detector
+Text Label 1075 2825 0    60   ~ 0
+CT5_Detector
+Text Label 1075 2975 0    60   ~ 0
+CT6_Detector
+Text Label 4035 5530 2    60   ~ 0
+CT2_Detector
+Text Label 4035 5430 2    60   ~ 0
+CT3_Detector
+Text Label 4035 5330 2    60   ~ 0
+CT4_Detector
+Text Label 4035 5230 2    60   ~ 0
+CT5_Detector
+Text Label 4035 5130 2    60   ~ 0
+CT6_Detector
+NoConn ~ 3720 4930
+NoConn ~ 3720 4830
+Text Label 4035 5630 2    60   ~ 0
+CT1_Detector
+NoConn ~ 3720 6230
+NoConn ~ 3720 6030
+NoConn ~ 3720 6130
+Text Label 1170 7130 0    60   ~ 0
+Control
+Text Label 4070 2845 2    60   ~ 0
+Control
+Text Label 1090 4835 0    60   ~ 0
+RESET
+Text Label 4070 2720 2    60   ~ 0
+RESET
+Text Label 10645 2730 2    60   ~ 0
+Voltage_AD_2
+Text Label 10645 2930 2    60   ~ 0
+Voltage_AD_3
+Text Label 1105 5830 0    60   ~ 0
+Voltage_AD_1
+Text Label 1100 6030 0    60   ~ 0
+Voltage_AD_2
+Text Label 1095 6130 0    60   ~ 0
+Voltage_AD_3
+Text Label 1095 5230 0    60   ~ 0
+Current_AD_1
+$Comp
+L +3.3VADC #PWR1
+U 1 1 55BC3462
+P 5680 4730
+F 0 "#PWR1" H 5830 4680 50  0001 C CNN
+F 1 "+3.3VADC" H 5680 4830 50  0000 C CNN
+F 2 "" H 5680 4730 60  0000 C CNN
+F 3 "" H 5680 4730 60  0000 C CNN
+	1    5680 4730
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 55BC4D0A
+P 5680 4920
+F 0 "R1" V 5760 4920 50  0000 C CNN
+F 1 "2.222K" V 5595 4915 50  0000 C CNN
+F 2 "" V 5610 4920 30  0000 C CNN
+F 3 "" H 5680 4920 30  0000 C CNN
+	1    5680 4920
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 55BC5386
+P 5680 5265
+F 0 "R2" V 5760 5265 50  0000 C CNN
+F 1 "10K" V 5600 5270 50  0000 C CNN
+F 2 "" V 5610 5265 30  0000 C CNN
+F 3 "" H 5680 5265 30  0000 C CNN
+	1    5680 5265
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 55BC74D1
+P 5680 5495
+F 0 "#PWR2" H 5680 5245 50  0001 C CNN
+F 1 "GND" H 5680 5345 50  0000 C CNN
+F 2 "" H 5680 5495 60  0000 C CNN
+F 3 "" H 5680 5495 60  0000 C CNN
+	1    5680 5495
+	1    0    0    -1  
+$EndComp
+Text Label 6030 5095 2    60   ~ 0
+V_REF
+Text Label 1320 5130 0    60   ~ 0
+V_REF
+Text Label 1305 5930 0    60   ~ 0
+V_REF
+Text Notes 5760 5190 0    60   ~ 0
+2.7 V
+Text Notes 4955 4310 0    118  ~ 0
+Voltage Reference\n
+Text Notes 8010 4320 0    118  ~ 0
+Voltage Regulator
 $Sheet
 S 8230 945  1715 2930
 U 548DF2C8
@@ -317,16 +493,13 @@ F17 "CURRENT_AD_4" I R 9945 1990 60
 F18 "CURRENT_AD_5" I R 9945 2185 60 
 F19 "CURRENT_AD_6" I R 9945 2380 60 
 F20 "Neutral_Filtered" I L 8230 1420 60 
-F21 "Phase_Line" I L 8230 1235 60 
-F22 "Voltage_AD_1" I R 9945 2555 60 
-F23 "Voltage_AD_2" I R 9945 2730 60 
-F24 "Voltage_AD_3" I R 9945 2930 60 
+F21 "Voltage_AD_1" I R 9945 2555 60 
+F22 "Voltage_AD_2" I R 9945 2730 60 
+F23 "Voltage_AD_3" I R 9945 2930 60 
+F24 "Phase_Line_1" I R 9945 3290 60 
+F25 "Phase_Line_2" I R 9945 3450 60 
+F26 "Phase_Line_3" I R 9945 3620 60 
 $EndSheet
-Text Label 1100 5630 0    60   ~ 0
-Current_AD_5
-NoConn ~ 1320 6230
-Text Label 1075 1200 0    60   ~ 0
-Phase_Line
 Wire Wire Line
 	1320 7230 1720 7230
 Wire Wire Line
@@ -457,8 +630,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 2575 4075 2575
 Wire Wire Line
-	1675 1200 1075 1200
-Wire Wire Line
 	1675 1325 1075 1325
 Wire Wire Line
 	1675 1450 1075 1450
@@ -480,8 +651,6 @@ Wire Wire Line
 	1675 2825 1075 2825
 Wire Wire Line
 	1675 2975 1075 2975
-Text Label 10645 2555 2    60   ~ 0
-Voltage_AD_1
 Wire Wire Line
 	9945 2555 10645 2555
 Wire Wire Line
@@ -521,200 +690,37 @@ Wire Wire Line
 Wire Wire Line
 	7530 1420 8230 1420
 Wire Wire Line
-	7530 1235 8230 1235
-Wire Wire Line
 	7530 2875 8230 2875
-Text Label 4075 1200 2    60   ~ 0
-CT1_1
-Text Label 4075 1325 2    60   ~ 0
-CT1_2
-Text Label 4075 1450 2    60   ~ 0
-CT2_1
-Text Label 4075 1575 2    60   ~ 0
-CT2_2
-Text Label 4075 1700 2    60   ~ 0
-CT3_1
-Text Label 4075 1825 2    60   ~ 0
-CT3_2
-Text Label 4075 1950 2    60   ~ 0
-CT4_1
-Text Label 4075 2075 2    60   ~ 0
-CT4_2
-Text Label 4075 2200 2    60   ~ 0
-CT5_1
-Text Label 4075 2325 2    60   ~ 0
-CT5_2
-Text Label 4075 2450 2    60   ~ 0
-CT6_1
-Text Label 4075 2575 2    60   ~ 0
-CT6_2
-Text Label 7530 1605 0    60   ~ 0
-CT1_1
-Text Label 7530 1780 0    60   ~ 0
-CT1_2
-Text Label 7530 1960 0    60   ~ 0
-CT2_1
-Text Label 7530 2135 0    60   ~ 0
-CT2_2
-Text Label 7530 2315 0    60   ~ 0
-CT3_1
-Text Label 7530 2500 0    60   ~ 0
-CT3_2
-Text Label 7530 2700 0    60   ~ 0
-CT4_1
-Text Label 7530 2875 0    60   ~ 0
-CT4_2
-Text Label 7530 3045 0    60   ~ 0
-CT5_1
-Text Label 7530 3245 0    60   ~ 0
-CT5_2
-Text Label 7530 3435 0    60   ~ 0
-CT6_1
-Text Label 7530 3610 0    60   ~ 0
-CT6_2
-Text Label 7530 1235 0    60   ~ 0
-Phase_Line
-Text Label 7530 1420 0    59   ~ 0
-Neutral_Filtered
-Text Label 1075 1325 0    60   ~ 0
-Neutral_Line
-Text Label 10645 1615 2    60   ~ 0
-Current_AD_2
-Text Label 10645 1795 2    60   ~ 0
-Current_AD_3
-Text Label 10645 1990 2    60   ~ 0
-Current_AD_4
-Text Label 10645 2380 2    60   ~ 0
-Current_AD_6
-Text Label 10645 1430 2    60   ~ 0
-Current_AD_1
-Text Label 10645 2185 2    60   ~ 0
-Current_AD_5
-Text Label 1075 2225 0    60   ~ 0
-CT1_Detector
-Text Label 1075 2375 0    60   ~ 0
-CT2_Detector
-Text Label 1075 2525 0    60   ~ 0
-CT3_Detector
-Text Label 1075 2675 0    60   ~ 0
-CT4_Detector
-Text Label 1075 2825 0    60   ~ 0
-CT5_Detector
-Text Label 1075 2975 0    60   ~ 0
-CT6_Detector
-Text Label 4035 5530 2    60   ~ 0
-CT2_Detector
-Text Label 4035 5430 2    60   ~ 0
-CT3_Detector
-Text Label 4035 5330 2    60   ~ 0
-CT4_Detector
-Text Label 4035 5230 2    60   ~ 0
-CT5_Detector
-Text Label 4035 5130 2    60   ~ 0
-CT6_Detector
-NoConn ~ 3720 4930
-NoConn ~ 3720 4830
-Text Label 4035 5630 2    60   ~ 0
-CT1_Detector
-NoConn ~ 3720 6230
-NoConn ~ 3720 6030
-NoConn ~ 3720 6130
 Wire Wire Line
 	3720 6230 3320 6230
 Wire Wire Line
 	3720 6130 3320 6130
 Wire Wire Line
 	3720 6030 3320 6030
-Text Label 1170 7130 0    60   ~ 0
-Control
 Wire Wire Line
-	3450 2975 4070 2975
+	3450 2845 4070 2845
 Wire Wire Line
-	3450 2850 4070 2850
-Text Label 4070 2975 2    60   ~ 0
-Control
+	3450 2720 4070 2720
 Wire Wire Line
 	1720 4835 1090 4835
-Text Label 1090 4835 0    60   ~ 0
-RESET
-Text Label 4070 2850 2    60   ~ 0
-RESET
-Text Label 10645 2730 2    60   ~ 0
-Voltage_AD_2
 Wire Wire Line
 	9945 2730 10645 2730
-Text Label 10645 2930 2    60   ~ 0
-Voltage_AD_3
 Wire Wire Line
 	9945 2930 10645 2930
-Text Label 1105 5830 0    60   ~ 0
-Voltage_AD_1
-Text Label 1100 6030 0    60   ~ 0
-Voltage_AD_2
-Text Label 1095 6130 0    60   ~ 0
-Voltage_AD_3
-Text Label 1095 5230 0    60   ~ 0
-Current_AD_1
 Wire Wire Line
 	1100 6030 1720 6030
 Wire Wire Line
 	1720 5130 1320 5130
 Wire Wire Line
 	1720 5930 1305 5930
-$Comp
-L +3.3VADC #PWR1
-U 1 1 55BC3462
-P 5680 4730
-F 0 "#PWR1" H 5830 4680 50  0001 C CNN
-F 1 "+3.3VADC" H 5680 4830 50  0000 C CNN
-F 2 "" H 5680 4730 60  0000 C CNN
-F 3 "" H 5680 4730 60  0000 C CNN
-	1    5680 4730
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R1
-U 1 1 55BC4D0A
-P 5680 4920
-F 0 "R1" V 5760 4920 50  0000 C CNN
-F 1 "2.222K" V 5595 4915 50  0000 C CNN
-F 2 "" V 5610 4920 30  0000 C CNN
-F 3 "" H 5680 4920 30  0000 C CNN
-	1    5680 4920
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 55BC5386
-P 5680 5265
-F 0 "R2" V 5760 5265 50  0000 C CNN
-F 1 "10K" V 5600 5270 50  0000 C CNN
-F 2 "" V 5610 5265 30  0000 C CNN
-F 3 "" H 5680 5265 30  0000 C CNN
-	1    5680 5265
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5680 5115 5680 5070
 Wire Wire Line
 	5680 4770 5680 4730
 Wire Wire Line
 	5680 5415 5680 5495
-$Comp
-L GND #PWR2
-U 1 1 55BC74D1
-P 5680 5495
-F 0 "#PWR2" H 5680 5245 50  0001 C CNN
-F 1 "GND" H 5680 5345 50  0000 C CNN
-F 2 "" H 5680 5495 60  0000 C CNN
-F 3 "" H 5680 5495 60  0000 C CNN
-	1    5680 5495
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5685 5095 6030 5095
-Text Label 6030 5095 2    60   ~ 0
-V_REF
 Wire Notes Line
 	5330 4480 6075 4480
 Wire Notes Line
@@ -723,14 +729,28 @@ Wire Notes Line
 	6075 5775 5320 5775
 Wire Notes Line
 	5320 5775 5320 4480
-Text Label 1320 5130 0    60   ~ 0
-V_REF
-Text Label 1305 5930 0    60   ~ 0
-V_REF
-Text Notes 5760 5190 0    60   ~ 0
-2.7 V
-Text Notes 4955 4310 0    118  ~ 0
-Voltage Reference\n
-Text Notes 8010 4320 0    118  ~ 0
-Voltage Regulator
+Wire Wire Line
+	9945 3290 10653 3290
+Wire Wire Line
+	9945 3450 10653 3450
+Wire Wire Line
+	9945 3620 10653 3620
+Text Label 10653 3290 2    60   ~ 0
+Phase_Line_1
+Text Label 10653 3450 2    60   ~ 0
+Phase_Line_2
+Text Label 10653 3620 2    60   ~ 0
+Phase_Line_3
+Wire Wire Line
+	3450 3020 4080 3020
+Wire Wire Line
+	3450 3150 4080 3150
+Wire Wire Line
+	3450 3280 4080 3280
+Text Label 4080 3020 2    60   ~ 0
+Phase_Line_1
+Text Label 4080 3150 2    60   ~ 0
+Phase_Line_2
+Text Label 4080 3280 2    60   ~ 0
+Phase_Line_3
 $EndSCHEMATC
