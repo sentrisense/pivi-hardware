@@ -1,0 +1,314 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Allegro_ACS759
+LIBS:acs712
+LIBS:txs0104e
+LIBS:less
+LIBS:pivi-shield-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 12 20
+Title "PIVI"
+Date "Mon 27 Jul 2015"
+Rev "2.0"
+Comp "Copyright (C) LESS industries S.A. 2014,2015"
+Comment1 "Share alike attribution non-commercial 4.0"
+Comment2 "License: Creative Commons "
+Comment3 "Current and Voltage measurment front end for 1 circuit"
+Comment4 ""
+$EndDescr
+Text HLabel 8460 3835 2    60   Output ~ 0
+Voltage_AD
+Text HLabel 3745 3835 0    60   Input ~ 0
+Phase_Line
+Text HLabel 3835 4635 0    60   Input ~ 0
+Neutral_Filtered
+$Comp
+L R R19
+U 1 1 5497B2D6
+P 6185 4235
+AR Path="/548DF2C8/55B216B6/5497B2D6" Ref="R19"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/5497B2D6" Ref="R44"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/5497B2D6" Ref="R51"  Part="1" 
+F 0 "R19" V 6265 4235 40  0000 C CNN
+F 1 "10k" V 6192 4236 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6115 4235 30  0000 C CNN
+F 3 "" H 6185 4235 30  0000 C CNN
+	1    6185 4235
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 5497B2DD
+P 6910 3835
+AR Path="/548DF2C8/55B216B6/5497B2DD" Ref="R20"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/5497B2DD" Ref="R45"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/5497B2DD" Ref="R52"  Part="1" 
+F 0 "R20" V 6990 3835 40  0000 C CNN
+F 1 "100" V 6917 3836 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6810 3835 30  0000 C CNN
+F 3 "" H 6910 3835 30  0000 C CNN
+	1    6910 3835
+	0    1    1    0   
+$EndComp
+$Comp
+L C C15
+U 1 1 5497B2E4
+P 6860 3110
+AR Path="/548DF2C8/55B216B6/5497B2E4" Ref="C15"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/5497B2E4" Ref="C24"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/5497B2E4" Ref="C27"  Part="1" 
+F 0 "C15" H 6860 3210 40  0000 L CNN
+F 1 "100n" H 6866 3025 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7085 3360 30  0000 C CNN
+F 3 "" H 6860 3110 60  0000 C CNN
+	1    6860 3110
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 5497B2EB
+P 7710 4235
+AR Path="/548DF2C8/55B216B6/5497B2EB" Ref="C16"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/5497B2EB" Ref="C25"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/5497B2EB" Ref="C28"  Part="1" 
+F 0 "C16" H 7835 4235 40  0000 L CNN
+F 1 "330nF" H 7860 4160 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" V 7585 4235 30  0000 C CNN
+F 3 "" H 7710 4235 60  0000 C CNN
+	1    7710 4235
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R22
+U 1 1 5497B2FF
+P 7285 4235
+AR Path="/548DF2C8/55B216B6/5497B2FF" Ref="R22"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/5497B2FF" Ref="R47"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/5497B2FF" Ref="R54"  Part="1" 
+F 0 "R22" V 7210 4235 40  0000 C CNN
+F 1 "10k" V 7292 4236 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7360 4235 30  0000 C CNN
+F 3 "" H 7285 4235 30  0000 C CNN
+	1    7285 4235
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R16
+U 1 1 548E33DD
+P 4760 3835
+AR Path="/548DF2C8/55B216B6/548E33DD" Ref="R16"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/548E33DD" Ref="R41"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/548E33DD" Ref="R48"  Part="1" 
+F 0 "R16" V 4840 3835 40  0000 C CNN
+F 1 "220k" V 4767 3836 40  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 4660 3835 30  0000 C CNN
+F 3 "" H 4760 3835 30  0000 C CNN
+	1    4760 3835
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 548E40C9
+P 7285 3510
+AR Path="/548DF2C8/55B216B6/548E40C9" Ref="R21"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/548E40C9" Ref="R46"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/548E40C9" Ref="R53"  Part="1" 
+F 0 "R21" V 7210 3510 40  0000 C CNN
+F 1 "10k" V 7292 3511 40  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7360 3510 30  0000 C CNN
+F 3 "" H 7285 3510 30  0000 C CNN
+	1    7285 3510
+	-1   0    0    1   
+$EndComp
+Text Notes 3085 4510 0    60   ~ 0
+Resistors R1, R2, R3 and R4 values should be selected in \nsuch a way that the peak-to-peak voltage should not go\nabove the ADC reference voltage for 120% of nominal voltage.
+$Comp
+L R R17
+U 1 1 548DF4C0
+P 5310 3835
+AR Path="/548DF2C8/55B216B6/548DF4C0" Ref="R17"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/548DF4C0" Ref="R42"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/548DF4C0" Ref="R49"  Part="1" 
+F 0 "R17" V 5390 3835 40  0000 C CNN
+F 1 "220k" V 5317 3836 40  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 5210 3835 30  0000 C CNN
+F 3 "" H 5310 3835 30  0000 C CNN
+	1    5310 3835
+	0    1    1    0   
+$EndComp
+$Comp
+L R R18
+U 1 1 548DF506
+P 5860 3835
+AR Path="/548DF2C8/55B216B6/548DF506" Ref="R18"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/548DF506" Ref="R43"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/548DF506" Ref="R50"  Part="1" 
+F 0 "R18" V 5940 3835 40  0000 C CNN
+F 1 "220k" V 5867 3836 40  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 5760 3835 30  0000 C CNN
+F 3 "" H 5860 3835 30  0000 C CNN
+	1    5860 3835
+	0    1    1    0   
+$EndComp
+$Comp
+L INDUCTOR L7
+U 1 1 54BDE7C8
+P 6460 2910
+AR Path="/548DF2C8/55B216B6/54BDE7C8" Ref="L7"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/54BDE7C8" Ref="L9"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/54BDE7C8" Ref="L11"  Part="1" 
+F 0 "L7" V 6410 2910 40  0000 C CNN
+F 1 "1u" V 6560 2910 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603" V 6335 3235 60  0000 C CNN
+F 3 "" H 6460 2910 60  0000 C CNN
+	1    6460 2910
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3V3 #PWR49
+U 1 1 54BE015B
+P 6160 2810
+AR Path="/548DF2C8/55B216B6/54BE015B" Ref="#PWR49"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/54BE015B" Ref="#PWR64"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/54BE015B" Ref="#PWR67"  Part="1" 
+F 0 "#PWR49" H 6160 2660 60  0001 C CNN
+F 1 "+3V3" H 6160 2950 60  0000 C CNN
+F 2 "" H 6160 2810 60  0000 C CNN
+F 3 "" H 6160 2810 60  0000 C CNN
+	1    6160 2810
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR50
+U 1 1 54C00611
+P 6860 3360
+AR Path="/548DF2C8/55B216B6/54C00611" Ref="#PWR50"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/54C00611" Ref="#PWR65"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/54C00611" Ref="#PWR68"  Part="1" 
+F 0 "#PWR50" H 6860 3110 60  0001 C CNN
+F 1 "GND" H 6860 3210 60  0000 C CNN
+F 2 "" H 6860 3360 60  0000 C CNN
+F 3 "" H 6860 3360 60  0000 C CNN
+	1    6860 3360
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR51
+U 1 1 54C006EB
+P 7285 4685
+AR Path="/548DF2C8/55B216B6/54C006EB" Ref="#PWR51"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/54C006EB" Ref="#PWR66"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/54C006EB" Ref="#PWR69"  Part="1" 
+F 0 "#PWR51" H 7285 4435 60  0001 C CNN
+F 1 "GND" H 7285 4535 60  0000 C CNN
+F 2 "" H 7285 4685 60  0000 C CNN
+F 3 "" H 7285 4685 60  0000 C CNN
+	1    7285 4685
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 54C1942B
+P 6460 3835
+AR Path="/548DF2C8/55B216B6/54C1942B" Ref="C14"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/54C1942B" Ref="C23"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/54C1942B" Ref="C26"  Part="1" 
+F 0 "C14" V 6535 3910 50  0000 L CNN
+F 1 "33uF" V 6610 3910 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" V 6310 3835 30  0000 C CNN
+F 3 "" H 6460 3835 60  0000 C CNN
+	1    6460 3835
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6185 3835 6185 4085
+Wire Wire Line
+	6185 4385 6185 4635
+Connection ~ 6185 4635
+Wire Wire Line
+	7285 3660 7285 4085
+Wire Wire Line
+	7710 4635 3835 4635
+Wire Wire Line
+	6760 2910 7285 2910
+Wire Wire Line
+	6860 3260 6860 3360
+Wire Wire Line
+	7710 3835 7710 4085
+Wire Wire Line
+	7710 4385 7710 4635
+Wire Wire Line
+	6160 2910 6160 2810
+Wire Wire Line
+	4475 3835 4610 3835
+Wire Wire Line
+	4910 3835 5160 3835
+Wire Wire Line
+	5710 3835 5460 3835
+Wire Wire Line
+	6610 3835 6760 3835
+Wire Wire Line
+	7285 4385 7285 4685
+Wire Wire Line
+	7285 2910 7285 3360
+Wire Wire Line
+	6860 2960 6860 2910
+Connection ~ 6860 2910
+Wire Wire Line
+	7285 4635 7285 4630
+Connection ~ 7285 4630
+Wire Wire Line
+	6010 3835 6310 3835
+Connection ~ 6185 3835
+Wire Wire Line
+	7060 3835 8460 3835
+Connection ~ 7285 3835
+Connection ~ 7710 3835
+$Comp
+L INDUCTOR L6
+U 1 1 548E4464
+P 4175 3835
+AR Path="/548DF2C8/55B216B6/548E4464" Ref="L6"  Part="1" 
+AR Path="/548DF2C8/55B9EDA2/548E4464" Ref="L8"  Part="1" 
+AR Path="/548DF2C8/55BA09A0/548E4464" Ref="L10"  Part="1" 
+F 0 "L6" V 4125 3835 40  0000 C CNN
+F 1 "1uH" V 4275 3835 40  0000 C CNN
+F 2 "Inductors_NEOSID:Neosid_Inductor_SM-NE30_SMD1210" V 4375 3860 60  0000 C CNN
+F 3 "" H 4175 3835 60  0000 C CNN
+	1    4175 3835
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3745 3835 3875 3835
+$EndSCHEMATC
