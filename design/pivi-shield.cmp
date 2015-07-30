@@ -1,156 +1,198 @@
-Cmp-Mod V01 Created by Cvpcb 0.201504261001+5623~23~ubuntu15.04.1-product   date = Tue 28 Jul 2015 04:12:17 PM ART
-
-BeginCmp
-TimeStamp = /548DF2C8/55B216B6/54C1942B;
-Reference = C1;
-ValeurCmp = 33uF;
-IdModule  = Capacitors_SMD:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B266EE/55B232D0;
-Reference = C2;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3A3F6/55B232D0;
-Reference = C3;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3A74F/55B232D0;
-Reference = C4;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD6E/55B232D0;
-Reference = C5;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD79/55B232D0;
-Reference = C6;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD84/55B232D0;
-Reference = C7;
-ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0805;
-EndCmp
+Cmp-Mod V01 Created by Cvpcb (2015-05-19 BZR 5670)-product   date = mié 29 jul 2015 21:29:43 ART
 
 BeginCmp
 TimeStamp = /547008F6/548F5037;
-Reference = C11;
+Reference = C1;
 ValeurCmp = 10pF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/54863967;
-Reference = C12;
+Reference = C2;
 ValeurCmp = 10pF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/546F43CE;
-Reference = C13;
+Reference = C3;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/548AF338;
-Reference = C14;
+Reference = C4;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/5496B0BB;
-Reference = C15;
+Reference = C5;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/5496B0F5;
-Reference = C16;
+Reference = C6;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/5496B136;
-Reference = C17;
+Reference = C7;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/5496B172;
-Reference = C18;
+Reference = C8;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/546F43D7;
-Reference = C19;
+Reference = C9;
 ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/548F53F6;
-Reference = C20;
+Reference = C10;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/54959F13;
-Reference = C21;
+Reference = C11;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548DF2C8/55B216B6/5497B2E4;
-Reference = C25;
-ValeurCmp = 100n;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B216B6/5497B2EB;
-Reference = C26;
-ValeurCmp = 330nF;
-IdModule  = Capacitors_SMD:C_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /548F00C8/548CB868;
-Reference = C52;
+Reference = C12;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /548F00C8/548CB8AD;
-Reference = C53;
+Reference = C13;
 ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/54C1942B;
+Reference = C14;
+ValeurCmp = 33uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/5497B2E4;
+Reference = C15;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/5497B2EB;
+Reference = C16;
+ValeurCmp = 330nF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B266EE/55B232D0;
+Reference = C17;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3A3F6/55B232D0;
+Reference = C18;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3A74F/55B232D0;
+Reference = C19;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD6E/55B232D0;
+Reference = C20;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD79/55B232D0;
+Reference = C21;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD84/55B232D0;
+Reference = C22;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/54C1942B;
+Reference = C23;
+ValeurCmp = 33uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/5497B2E4;
+Reference = C24;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/5497B2EB;
+Reference = C25;
+ValeurCmp = 330nF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/54C1942B;
+Reference = C26;
+ValeurCmp = 33uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/5497B2E4;
+Reference = C27;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/5497B2EB;
+Reference = C28;
+ValeurCmp = 330nF;
 IdModule  = Capacitors_SMD:C_0603;
 EndCmp
 
@@ -170,58 +212,58 @@ EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/548AF33E;
-Reference = FB2;
+Reference = FB1;
 ValeurCmp = BLM15BB221SN1;
 IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/5485F064;
-Reference = IC2;
+Reference = IC1;
 ValeurCmp = ATXMEGA128A3U-A;
 IdModule  = LESS:TQFP64_14X14MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B659F5/55B1DCD2;
+TimeStamp = /549598FF/55B659F5/55BF1B7D;
 Reference = J1;
-ValeurCmp = JACK_TRS_6PINS;
-IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+ValeurCmp = sj-3503-smt;
+IdModule  = LESS:SJ-3503-SMT;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B37AF3/55B1DCD2;
+TimeStamp = /549598FF/55B37AF3/55BF1B7D;
 Reference = J2;
-ValeurCmp = JACK_TRS_6PINS;
-IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+ValeurCmp = sj-3503-smt;
+IdModule  = LESS:SJ-3503-SMT;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B38046/55B1DCD2;
+TimeStamp = /549598FF/55B38046/55BF1B7D;
 Reference = J3;
-ValeurCmp = JACK_TRS_6PINS;
-IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+ValeurCmp = sj-3503-smt;
+IdModule  = LESS:SJ-3503-SMT;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B38E62/55B1DCD2;
+TimeStamp = /549598FF/55B38E62/55BF1B7D;
 Reference = J4;
-ValeurCmp = JACK_TRS_6PINS;
-IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+ValeurCmp = sj-3503-smt;
+IdModule  = LESS:SJ-3503-SMT;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B38E6D/55B1DCD2;
+TimeStamp = /549598FF/55B38E6D/55BF1B7D;
 Reference = J5;
-ValeurCmp = JACK_TRS_6PINS;
-IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+ValeurCmp = sj-3503-smt;
+IdModule  = LESS:SJ-3503-SMT;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B38E78/55B1DCD2;
+TimeStamp = /549598FF/55B38E78/55BF1B7D;
 Reference = J6;
-ValeurCmp = JACK_TRS_6PINS;
-IdModule  = Pin_Headers:Pin_Header_Angled_2x03;
+ValeurCmp = sj-3503-smt;
+IdModule  = LESS:SJ-3503-SMT;
 EndCmp
 
 BeginCmp
@@ -229,13 +271,6 @@ TimeStamp = /549598FF/54C1890C;
 Reference = JP1;
 ValeurCmp = JUMPER3;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
-EndCmp
-
-BeginCmp
-TimeStamp = /547008F6/5493A2B0;
-Reference = JP2;
-ValeurCmp = JUMPER;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -253,351 +288,505 @@ IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /548DF2C8/55B216B6/548E4464;
+TimeStamp = /547008F6/54BF815F;
 Reference = L3;
+ValeurCmp = 1u;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/54C27524;
+Reference = L4;
+ValeurCmp = 1uH;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/54C275D2;
+Reference = L5;
+ValeurCmp = 1uH;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/548E4464;
+Reference = L6;
 ValeurCmp = 1uH;
 IdModule  = Inductors_NEOSID:Neosid_Inductor_SM-NE30_SMD1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /548DF2C8/55B216B6/54BDE7C8;
+Reference = L7;
+ValeurCmp = 1u;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/548E4464;
+Reference = L8;
+ValeurCmp = 1uH;
+IdModule  = Inductors_NEOSID:Neosid_Inductor_SM-NE30_SMD1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/54BDE7C8;
 Reference = L9;
 ValeurCmp = 1u;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/54C27524;
-Reference = L15;
+TimeStamp = /548DF2C8/55BA09A0/548E4464;
+Reference = L10;
+ValeurCmp = 1uH;
+IdModule  = Inductors_NEOSID:Neosid_Inductor_SM-NE30_SMD1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/54BDE7C8;
+Reference = L11;
 ValeurCmp = 1u;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /549598FF/54C275D2;
-Reference = L16;
-ValeurCmp = 1u;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /547008F6/54BF815F;
-Reference = L17;
-ValeurCmp = 1u;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /549598FF/54C3C5E9;
-Reference = P1;
-ValeurCmp = Recom_Power_RAC10-05SC/277;
-IdModule  = LESS:RAC10-xxSC-277;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/548CF574;
-Reference = P2;
+Reference = P1;
 ValeurCmp = CONN_02X05;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/548F28AD;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/54C3C5E9;
+Reference = P3;
+ValeurCmp = Recom_Power_RAC10-05SC/277;
+IdModule  = LESS:RAC10-xxSC-277;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/54C3B67F;
 Reference = P4;
 ValeurCmp = CONN_01X02;
-IdModule  = LESS:CONN-TERM-BLK-2POS-PHOENIX;
-EndCmp
-
-BeginCmp
-TimeStamp = /549598FF/548F28AD;
-Reference = P6;
-ValeurCmp = CONN_01X02;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/54959FCF;
-Reference = P9;
+Reference = P5;
 ValeurCmp = CONN_02X20;
 IdModule  = LESS:Pin_Header_Straight_2x20_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B659F5/55B1DDFF;
+TimeStamp = /549598FF/55BE90A6;
+Reference = P6;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/55BC87D7;
+Reference = P7;
+ValeurCmp = CONN_01X02;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BC4D0A;
 Reference = R1;
-ValeurCmp = 10K;
+ValeurCmp = 2.222K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B37AF3/55B1DDFF;
+TimeStamp = /55BC5386;
 Reference = R2;
 ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/55B38046/55B1DDFF;
-Reference = R3;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /549598FF/55B38E62/55B1DDFF;
-Reference = R4;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /549598FF/55B38E6D/55B1DDFF;
-Reference = R5;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /547008F6/5493E749;
-Reference = R6;
+Reference = R3;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/546F43A6;
-Reference = R7;
+Reference = R4;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/546F43A7;
-Reference = R8;
+Reference = R5;
 ValeurCmp = 10k;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/54959F58;
-Reference = R9;
+Reference = R6;
 ValeurCmp = 470;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /548DF2C8/55B216B6/548E33DD;
-Reference = R10;
-ValeurCmp = 220k;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B216B6/548DF4C0;
-Reference = R11;
-ValeurCmp = 220k;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B216B6/548DF506;
-Reference = R12;
-ValeurCmp = 220k;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B216B6/5497B2D6;
-Reference = R13;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B216B6/5497B2DD;
-Reference = R14;
-ValeurCmp = 100;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B216B6/5497B2FF;
-Reference = R15;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /549598FF/55B38E78/55B1DDFF;
-Reference = R16;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B266EE/55B231D6;
-Reference = R17;
-ValeurCmp = 22R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B266EE/55B23207;
-Reference = R18;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B216B6/548E40C9;
-Reference = R19;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B266EE/55B23290;
-Reference = R20;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3A3F6/55B231D6;
-Reference = R21;
-ValeurCmp = 22R;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3A3F6/55B23207;
-Reference = R22;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3A3F6/55B23290;
-Reference = R23;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3A74F/55B231D6;
-Reference = R24;
-ValeurCmp = 22R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3A74F/55B23207;
-Reference = R25;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3A74F/55B23290;
-Reference = R26;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD6E/55B231D6;
-Reference = R27;
-ValeurCmp = 22R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD6E/55B23207;
-Reference = R28;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD6E/55B23290;
-Reference = R29;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD79/55B231D6;
-Reference = R30;
-ValeurCmp = 22R;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD79/55B23207;
-Reference = R31;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD79/55B23290;
-Reference = R32;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_2512;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD84/55B231D6;
-Reference = R33;
-ValeurCmp = 22R;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD84/55B23207;
-Reference = R34;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /548DF2C8/55B3BD84/55B23290;
-Reference = R35;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /549598FF/55BA6452;
-Reference = R36;
+Reference = R7;
 ValeurCmp = 270;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/55BA6613;
-Reference = R37;
+Reference = R8;
 ValeurCmp = 270;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/55BA674E;
-Reference = R38;
+Reference = R9;
 ValeurCmp = 270;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /549598FF/55B659F5/55B1DDFF;
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/55B37AF3/55B1DDFF;
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/55B38046/55B1DDFF;
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/55B38E62/55B1DDFF;
+Reference = R13;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/55B38E6D/55B1DDFF;
+Reference = R14;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /549598FF/55B38E78/55B1DDFF;
+Reference = R15;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/548E33DD;
+Reference = R16;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/548DF4C0;
+Reference = R17;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/548DF506;
+Reference = R18;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/5497B2D6;
+Reference = R19;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/5497B2DD;
+Reference = R20;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/548E40C9;
+Reference = R21;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B216B6/5497B2FF;
+Reference = R22;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B266EE/55B231D6;
+Reference = R23;
+ValeurCmp = 22R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B266EE/55B23207;
+Reference = R24;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B266EE/55B23290;
+Reference = R25;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3A3F6/55B231D6;
+Reference = R26;
+ValeurCmp = 22R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3A3F6/55B23207;
+Reference = R27;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3A3F6/55B23290;
+Reference = R28;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3A74F/55B231D6;
+Reference = R29;
+ValeurCmp = 22R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3A74F/55B23207;
+Reference = R30;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3A74F/55B23290;
+Reference = R31;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD6E/55B231D6;
+Reference = R32;
+ValeurCmp = 22R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD6E/55B23207;
+Reference = R33;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD6E/55B23290;
+Reference = R34;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD79/55B231D6;
+Reference = R35;
+ValeurCmp = 22R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD79/55B23207;
+Reference = R36;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD79/55B23290;
+Reference = R37;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD84/55B231D6;
+Reference = R38;
+ValeurCmp = 22R;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD84/55B23207;
+Reference = R39;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B3BD84/55B23290;
+Reference = R40;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/548E33DD;
+Reference = R41;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/548DF4C0;
+Reference = R42;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/548DF506;
+Reference = R43;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/5497B2D6;
+Reference = R44;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/5497B2DD;
+Reference = R45;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/548E40C9;
+Reference = R46;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55B9EDA2/5497B2FF;
+Reference = R47;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/548E33DD;
+Reference = R48;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/548DF4C0;
+Reference = R49;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/548DF506;
+Reference = R50;
+ValeurCmp = 220k;
+IdModule  = Resistors_SMD:R_2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/5497B2D6;
+Reference = R51;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/5497B2DD;
+Reference = R52;
+ValeurCmp = 100;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/548E40C9;
+Reference = R53;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /548DF2C8/55BA09A0/5497B2FF;
+Reference = R54;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /548F00C8/548CB80E;
-Reference = U7;
+Reference = U3;
 ValeurCmp = TLV70233DBV;
-IdModule  = SMD_Packages:SOT-23-5;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /547008F6/5486396D;
-Reference = X2;
+Reference = X1;
 ValeurCmp = 32.768kHz +/-20PPM 7pF SMD;
 IdModule  = Sparkfun:SparkFun-CRYSTAL-32KHZ-SMD_EPSON_MC146;
 EndCmp
