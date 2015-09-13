@@ -32,7 +32,6 @@ LIBS:Allegro_ACS759
 LIBS:acs712
 LIBS:txs0104e
 LIBS:less
-LIBS:pivi-shield-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
