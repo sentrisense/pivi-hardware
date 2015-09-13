@@ -88,7 +88,7 @@ NoConn ~ 7015 2665
 NoConn ~ 7015 1965
 NoConn ~ 7015 1865
 NoConn ~ 7015 1765
-Text Notes 6015 4855 0    60   ~ 0
+Text Notes 6200 4850 0    60   ~ 0
 Power line Input.\nFrom circuit breakers.
 $Comp
 L +5V #PWR029
@@ -134,13 +134,13 @@ Text Notes 1100 7025 0    60   ~ 0
 Raspberry Header source:\nhttp://www.raspberrypi.org/wp-content/uploads/2014/04/bplus-gpio.png
 Text Notes 1250 4445 0    120  ~ 0
 Board power Supply Connections
-Text HLabel 6610 5160 2    60   Output ~ 0
+Text HLabel 6750 5200 2    60   Output ~ 0
 Phase_Line_1
-Text HLabel 6610 5260 2    60   Output ~ 0
+Text HLabel 6750 5100 2    60   Output ~ 0
 Neutral_Line
-Text Label 6260 5160 0    60   ~ 0
+Text Label 6500 5200 0    60   ~ 0
 220V
-Text Label 6260 5260 0    60   ~ 0
+Text Label 6500 5100 0    60   ~ 0
 N
 Text Label 1300 5170 2    60   ~ 0
 220V
@@ -286,17 +286,6 @@ If the jumper is between the main \npower supply and the center point, \nthe boa
 Text Notes 1075 5470 0    60   ~ 0
 Place inductors close to the \npower supply.
 $Comp
-L CONN_01X02 P4
-U 1 1 54C3B67F
-P 6060 5210
-F 0 "P4" H 6060 5360 50  0000 C CNN
-F 1 "CONN_01X02" V 6160 5210 50  0000 C CNN
-F 2 "Connect:bornier2" H 6060 5210 60  0001 C CNN
-F 3 "" H 6060 5210 60  0000 C CNN
-	1    6060 5210
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Recom_Power_RAC10-05SC/277 P3
 U 1 1 54C3C5E9
 P 2350 5120
@@ -328,10 +317,6 @@ Wire Wire Line
 	7515 1265 8390 1265
 Wire Wire Line
 	7590 1365 7515 1365
-Wire Wire Line
-	6260 5260 6610 5260
-Wire Wire Line
-	6260 5160 6610 5160
 Wire Wire Line
 	2625 5170 2625 5270
 Wire Wire Line
@@ -678,23 +663,27 @@ Wire Wire Line
 	9070 5105 9235 5105
 Wire Wire Line
 	9070 5205 9240 5205
-Text HLabel 6610 5730 2    60   Output ~ 0
+Text HLabel 6750 5300 2    60   Output ~ 0
 Phase_Line_2
-Text HLabel 6610 5830 2    60   Output ~ 0
+Text HLabel 6750 5400 2    60   Output ~ 0
 Phase_Line_3
 $Comp
-L CONN_01X02 P7
-U 1 1 55BC87D7
-P 6060 5780
-F 0 "P7" H 6060 5930 50  0000 C CNN
-F 1 "CONN_01X02" V 6160 5780 50  0000 C CNN
-F 2 "Connect:bornier2" H 6060 5780 60  0001 C CNN
-F 3 "" H 6060 5780 60  0000 C CNN
-	1    6060 5780
+L CONN_01X04 P?
+U 1 1 55F7C621
+P 6250 5250
+F 0 "P?" H 6250 5500 50  0000 C CNN
+F 1 "CONN_01X04" V 6350 5250 50  0000 C CNN
+F 2 "LESS:Terminal_block_4_pos" H 5750 4900 60  0000 C CNN
+F 3 "" H 6250 5250 60  0000 C CNN
+	1    6250 5250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6260 5830 6610 5830
+	6450 5100 6750 5100
 Wire Wire Line
-	6260 5730 6610 5730
+	6450 5200 6750 5200
+Wire Wire Line
+	6450 5300 6750 5300
+Wire Wire Line
+	6450 5400 6750 5400
 $EndSCHEMATC
