@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-19 BZR 5670)-product   date = mié 29 jul 2015 21:29:43 ART
+Cmp-Mod V01 Created by Cvpcb (2015-05-19 BZR 5670)-product   date = dom 13 sep 2015 11:28:36 ART
 
 BeginCmp
 TimeStamp = /547008F6/548F5037;
@@ -372,10 +372,10 @@ IdModule  = LESS:RAC10-xxSC-277;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/54C3B67F;
+TimeStamp = /549598FF/55F7C621;
 Reference = P4;
-ValeurCmp = CONN_01X02;
-IdModule  = Connect:bornier2;
+ValeurCmp = CONN_01X04;
+IdModule  = LESS:Terminal_block_4_pos;
 EndCmp
 
 BeginCmp
@@ -390,13 +390,6 @@ TimeStamp = /549598FF/55BE90A6;
 Reference = P6;
 ValeurCmp = CONN_01X04;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
-EndCmp
-
-BeginCmp
-TimeStamp = /549598FF/55BC87D7;
-Reference = P7;
-ValeurCmp = CONN_01X02;
-IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
