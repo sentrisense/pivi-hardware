@@ -1,4 +1,4 @@
-update=Wed 29 Jul 2015 02:01:01 PM ART
+update=dom 13 sep 2015 18:33:33 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -38,9 +38,11 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=../libs;../../../gclass_amplifier/pcb.pretty;../../../gclass_amplifier/pcb transistores
+LibDir=../libs;../design
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -75,5 +77,4 @@ LibName30=Allegro_ACS759
 LibName31=acs712
 LibName32=txs0104e
 LibName33=less
-[general]
-version=1
+LibName34=/home/sebastian/Escritorio/LESS/pivi-hardware/pcb.pretty/RGB-LED-PLL6
