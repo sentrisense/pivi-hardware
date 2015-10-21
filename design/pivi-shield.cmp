@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-19 BZR 5670)-product   date = mié 29 jul 2015 21:29:43 ART
+Cmp-Mod V01 Created by Cvpcb (2015-05-19 BZR 5670)-product   date = dom 13 sep 2015 12:40:30 ART
 
 BeginCmp
 TimeStamp = /547008F6/548F5037;
@@ -269,7 +269,7 @@ EndCmp
 BeginCmp
 TimeStamp = /549598FF/54C1890C;
 Reference = JP1;
-ValeurCmp = JUMPER3;
+ValeurCmp = 5v selector;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
@@ -353,14 +353,14 @@ EndCmp
 BeginCmp
 TimeStamp = /547008F6/548CF574;
 Reference = P1;
-ValeurCmp = CONN_02X05;
+ValeurCmp = JTAG connector;
 IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/548F28AD;
 Reference = P2;
-ValeurCmp = CONN_01X02;
+ValeurCmp = External 5v;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
@@ -372,31 +372,24 @@ IdModule  = LESS:RAC10-xxSC-277;
 EndCmp
 
 BeginCmp
-TimeStamp = /549598FF/54C3B67F;
+TimeStamp = /549598FF/55F7C621;
 Reference = P4;
-ValeurCmp = CONN_01X02;
-IdModule  = Connect:bornier2;
+ValeurCmp = CONN_01X04;
+IdModule  = LESS:Terminal_block_4_pos;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/54959FCF;
 Reference = P5;
 ValeurCmp = CONN_02X20;
-IdModule  = LESS:Pin_Header_Straight_2x20_SMD;
+IdModule  = LESS:Pin_Header_Straight_2x20_SMD_mirror;
 EndCmp
 
 BeginCmp
 TimeStamp = /549598FF/55BE90A6;
 Reference = P6;
-ValeurCmp = CONN_01X04;
+ValeurCmp = Debug uart;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
-EndCmp
-
-BeginCmp
-TimeStamp = /549598FF/55BC87D7;
-Reference = P7;
-ValeurCmp = CONN_01X02;
-IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
